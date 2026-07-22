@@ -14,11 +14,12 @@ Knowledge Graphing: As it ingests code, it builds a local JSON knowledge graph m
 
 Safe Terminal Execution: If the agent needs to run a command, it will. But if the command is destructive (like rm, sudo, or git push), it pauses and asks for explicit user confirmation first.
 
- Voice & Multimodal: Born from Q-Claw, it possesses a voice. Using Kokoro TTS and Vosk STT, it can lock into a continuous "Voice Mode" where you speak to it, and it speaks back.
+Voice & Multimodal: Born from Q-Claw, it possesses a voice. Using Kokoro TTS and Vosk STT, it can lock into a continuous "Voice Mode" where you speak to it, and it speaks back.
  
 ⚡Offline Fast-Paths: Knows when not to bother the AI. If you say "hi", it responds instantly. If you ask for a quick web search, it bypasses the LLM entirely and fetches summaries from Wikipedia and DuckDuckGo.
 
 ## Installation & Setup
+
 '''bash
 
 1. Prerequisites
@@ -36,8 +37,6 @@ python Qclawcode.py setup
 3. Verify Setup
 Run the doctor command to ensure your Node, Python, and Ollama environments are configured correctly:
 
-
-￼
 python Qclawcode.py doctor
 
 Usage
