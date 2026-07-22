@@ -47,20 +47,4 @@ python Qclawcode.py
 
 '''
 
-### Supported Code Languages
-
-QClawCode uses Tree-sitter to intelligently parse the following languages:
-
-Python (.py)
-JavaScript (.js, .mjs, .cjs)
-TypeScript (.ts, .tsx)
-C / C++ (.c, .cpp, .cc, .h, .hpp)
-C# (.cs)
-Java (.java)
-Go (.go)
-Rust (.rs)
-HTML, CSS, JSON
-
-
-
 [![IMG-2978.webp](https://i.postimg.cc/90CktdGg/IMG-2978.webp)](https://postimg.cc/1n7MyN7D)
